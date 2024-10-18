@@ -17,3 +17,6 @@ Episode 1: Setup
 (ii) Set up entities: Translate
 (iii) Embed the enviornment: There are two reasons some sort of embedding needs to be create dof all the components at play. 1) I want learning to generalize between pokemons, moves, environemtns that are similar (an infernape and a blaziken should accomplish very similar things), 2) There is information that is not easy quantizable that I want the agent to pay attention to, for exmpale abilities, whose effects are understood by their text descriptions ("may poison target"), whch require embedding of some sort. 
 (iv) Set up (integrate) an environemtn in which pokemon battles can be simulated. 
+
+Embedding Notes:
+1) The information about pokemon and the environemt can exist in differnt modality (text/numerical/categorical etc) therefore finding an appropriate embedding that the model can work with is one of the most important parts - for this we use pre-trained, and fintetuned transformers.
