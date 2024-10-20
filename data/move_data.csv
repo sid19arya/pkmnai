@@ -1,0 +1,920 @@
+,name,power,accuracy,pp,priority,damage_class,target,type,effect
+0,pound,40,100,35,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,karate-chop,50,100,25,0,physical,selected-pokemon,fighting,Has an increased chance for a critical hit.
+0,double-slap,15,85,10,0,physical,selected-pokemon,normal,Hits 2-5 times in one turn.
+0,comet-punch,18,85,15,0,physical,selected-pokemon,normal,Hits 2-5 times in one turn.
+0,mega-punch,80,85,20,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,pay-day,40,100,20,0,physical,selected-pokemon,normal,Scatters money on the ground worth five times the user's level.
+0,fire-punch,75,100,15,0,physical,selected-pokemon,fire,Has a 10% chance to burn the target.
+0,ice-punch,75,100,15,0,physical,selected-pokemon,ice,Has a 10% chance to freeze the target.
+0,thunder-punch,75,100,15,0,physical,selected-pokemon,electric,Has a 10% chance to paralyze the target.
+0,scratch,40,100,35,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,vice-grip,55,100,30,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,guillotine,,30,5,0,physical,selected-pokemon,normal,Causes a one-hit KO.
+0,razor-wind,80,100,10,0,special,all-opponents,normal,Requires a turn to charge before attacking.
+0,swords-dance,,,20,0,status,user,normal,Raises the user's Attack by two stages.
+0,cut,50,95,30,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,gust,40,100,35,0,special,selected-pokemon,flying,Inflicts regular damage and can hit Pokémon in the air.
+0,wing-attack,60,100,35,0,physical,selected-pokemon,flying,Inflicts regular damage with no additional effect.
+0,whirlwind,,,20,-6,status,selected-pokemon,normal,Immediately ends wild battles.  Forces trainers to switch Pokémon.
+0,fly,90,95,15,0,physical,selected-pokemon,flying,"User flies high into the air, dodging all attacks, and hits next turn."
+0,bind,15,85,20,0,physical,selected-pokemon,normal,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,slam,80,75,20,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,vine-whip,45,100,25,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,stomp,65,100,20,0,physical,selected-pokemon,normal,Has a 30% chance to make the target flinch.
+0,double-kick,30,100,30,0,physical,selected-pokemon,fighting,Hits twice in one turn.
+0,mega-kick,120,75,5,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,jump-kick,100,95,10,0,physical,selected-pokemon,fighting,"If the user misses, it takes half the damage it would have inflicted in recoil."
+0,rolling-kick,60,85,15,0,physical,selected-pokemon,fighting,Has a 30% chance to make the target flinch.
+0,sand-attack,,100,15,0,status,selected-pokemon,ground,Lowers the target's accuracy by one stage.
+0,headbutt,70,100,15,0,physical,selected-pokemon,normal,Has a 30% chance to make the target flinch.
+0,horn-attack,65,100,25,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,fury-attack,15,85,20,0,physical,selected-pokemon,normal,Hits 2-5 times in one turn.
+0,horn-drill,,30,5,0,physical,selected-pokemon,normal,Causes a one-hit KO.
+0,tackle,40,100,35,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,body-slam,85,100,15,0,physical,selected-pokemon,normal,Has a 30% chance to paralyze the target.
+0,wrap,15,90,20,0,physical,selected-pokemon,normal,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,take-down,90,85,20,0,physical,selected-pokemon,normal,User receives 1/4 the damage it inflicts in recoil.
+0,thrash,120,100,10,0,physical,random-opponent,normal,"Hits every turn for 2-3 turns, then confuses the user."
+0,double-edge,120,100,15,0,physical,selected-pokemon,normal,User receives 1/3 the damage inflicted in recoil.
+0,tail-whip,,100,30,0,status,all-opponents,normal,Lowers the target's Defense by one stage.
+0,poison-sting,15,100,35,0,physical,selected-pokemon,poison,Has a 30% chance to poison the target.
+0,twineedle,25,100,20,0,physical,selected-pokemon,bug,Hits twice in the same turn.  Has a 20% chance to poison the target.
+0,pin-missile,25,95,20,0,physical,selected-pokemon,bug,Hits 2-5 times in one turn.
+0,leer,,100,30,0,status,all-opponents,normal,Lowers the target's Defense by one stage.
+0,bite,60,100,25,0,physical,selected-pokemon,dark,Has a 30% chance to make the target flinch.
+0,growl,,100,40,0,status,all-opponents,normal,Lowers the target's Attack by one stage.
+0,roar,,,20,-6,status,selected-pokemon,normal,Immediately ends wild battles.  Forces trainers to switch Pokémon.
+0,sing,,55,15,0,status,selected-pokemon,normal,Puts the target to sleep.
+0,supersonic,,55,20,0,status,selected-pokemon,normal,Confuses the target.
+0,sonic-boom,,90,20,0,special,selected-pokemon,normal,Inflicts 20 points of damage.
+0,disable,,100,20,0,status,selected-pokemon,normal,Disables the target's last used move for 1-8 turns.
+0,acid,40,100,30,0,special,all-opponents,poison,Has a 10% chance to lower the target's Special Defense by one stage.
+0,ember,40,100,25,0,special,selected-pokemon,fire,Has a 10% chance to burn the target.
+0,flamethrower,90,100,15,0,special,selected-pokemon,fire,Has a 10% chance to burn the target.
+0,mist,,,30,0,status,users-field,ice,Protects the user's stats from being changed by enemy moves.
+0,water-gun,40,100,25,0,special,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,hydro-pump,110,80,5,0,special,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,surf,90,100,15,0,special,all-other-pokemon,water,Inflicts regular damage and can hit Dive users.
+0,ice-beam,90,100,10,0,special,selected-pokemon,ice,Has a 10% chance to freeze the target.
+0,blizzard,110,70,5,0,special,all-opponents,ice,Has a 10% chance to freeze the target.
+0,psybeam,65,100,20,0,special,selected-pokemon,psychic,Has a 10% chance to confuse the target.
+0,bubble-beam,65,100,20,0,special,selected-pokemon,water,Has a 10% chance to lower the target's Speed by one stage.
+0,aurora-beam,65,100,20,0,special,selected-pokemon,ice,Has a 10% chance to lower the target's Attack by one stage.
+0,hyper-beam,150,90,5,0,special,selected-pokemon,normal,User foregoes its next turn to recharge.
+0,peck,35,100,35,0,physical,selected-pokemon,flying,Inflicts regular damage with no additional effect.
+0,drill-peck,80,100,20,0,physical,selected-pokemon,flying,Inflicts regular damage with no additional effect.
+0,submission,80,80,20,0,physical,selected-pokemon,fighting,User receives 1/4 the damage it inflicts in recoil.
+0,low-kick,,100,20,0,physical,selected-pokemon,fighting,"Inflicts more damage to heavier targets, with a maximum of 120 power."
+0,counter,,100,20,-5,physical,specific-move,fighting,Inflicts twice the damage the user received from the last physical hit it took.
+0,seismic-toss,,100,20,0,physical,selected-pokemon,fighting,Inflicts damage equal to the user's level.
+0,strength,80,100,15,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,absorb,20,100,25,0,special,selected-pokemon,grass,Drains half the damage inflicted to heal the user.
+0,mega-drain,40,100,15,0,special,selected-pokemon,grass,Drains half the damage inflicted to heal the user.
+0,leech-seed,,90,10,0,status,selected-pokemon,grass,"Seeds the target, stealing HP from it every turn."
+0,growth,,,20,0,status,user,normal,Raises the user's Attack and Special Attack by one stage.
+0,razor-leaf,55,95,25,0,physical,all-opponents,grass,Has an increased chance for a critical hit.
+0,solar-beam,120,100,10,0,special,selected-pokemon,grass,Requires a turn to charge before attacking.
+0,poison-powder,,75,35,0,status,selected-pokemon,poison,Poisons the target.
+0,stun-spore,,75,30,0,status,selected-pokemon,grass,Paralyzes the target.
+0,sleep-powder,,75,15,0,status,selected-pokemon,grass,Puts the target to sleep.
+0,petal-dance,120,100,10,0,special,random-opponent,grass,"Hits every turn for 2-3 turns, then confuses the user."
+0,string-shot,,95,40,0,status,all-opponents,bug,Lowers the target's Speed by two stages.
+0,dragon-rage,,100,10,0,special,selected-pokemon,dragon,Inflicts 40 points of damage.
+0,fire-spin,35,85,15,0,special,selected-pokemon,fire,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,thunder-shock,40,100,30,0,special,selected-pokemon,electric,Has a 10% chance to paralyze the target.
+0,thunderbolt,90,100,15,0,special,selected-pokemon,electric,Has a 10% chance to paralyze the target.
+0,thunder-wave,,90,20,0,status,selected-pokemon,electric,Paralyzes the target.
+0,thunder,110,70,10,0,special,selected-pokemon,electric,Has a 30% chance to paralyze the target.
+0,rock-throw,50,90,15,0,physical,selected-pokemon,rock,Inflicts regular damage with no additional effect.
+0,earthquake,100,100,10,0,physical,all-other-pokemon,ground,Inflicts regular damage and can hit Dig users.
+0,fissure,,30,5,0,physical,selected-pokemon,ground,Causes a one-hit KO.
+0,dig,80,100,10,0,physical,selected-pokemon,ground,"User digs underground, dodging all attacks, and hits next turn."
+0,toxic,,90,10,0,status,selected-pokemon,poison,"Badly poisons the target, inflicting more damage every turn."
+0,confusion,50,100,25,0,special,selected-pokemon,psychic,Has a 10% chance to confuse the target.
+0,psychic,90,100,10,0,special,selected-pokemon,psychic,Has a 10% chance to lower the target's Special Defense by one stage.
+0,hypnosis,,60,20,0,status,selected-pokemon,psychic,Puts the target to sleep.
+0,meditate,,,40,0,status,user,psychic,Raises the user's Attack by one stage.
+0,agility,,,30,0,status,user,psychic,Raises the user's Speed by two stages.
+0,quick-attack,40,100,30,1,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,rage,20,100,20,0,physical,selected-pokemon,normal,"If the user is hit after using this move, its Attack rises by one stage."
+0,teleport,,,20,-6,status,user,psychic,Immediately ends wild battles.  No effect otherwise.
+0,night-shade,,100,15,0,special,selected-pokemon,ghost,Inflicts damage equal to the user's level.
+0,mimic,,,10,0,status,selected-pokemon,normal,Copies the target's last used move.
+0,screech,,85,40,0,status,selected-pokemon,normal,Lowers the target's Defense by two stages.
+0,double-team,,,15,0,status,user,normal,Raises the user's evasion by one stage.
+0,recover,,,5,0,status,user,normal,Heals the user by half its max HP.
+0,harden,,,30,0,status,user,normal,Raises the user's Defense by one stage.
+0,minimize,,,10,0,status,user,normal,Raises the user's evasion by two stages.
+0,smokescreen,,100,20,0,status,selected-pokemon,normal,Lowers the target's accuracy by one stage.
+0,confuse-ray,,100,10,0,status,selected-pokemon,ghost,Confuses the target.
+0,withdraw,,,40,0,status,user,water,Raises the user's Defense by one stage.
+0,defense-curl,,,40,0,status,user,normal,Raises user's Defense by one stage.
+0,barrier,,,20,0,status,user,psychic,Raises the user's Defense by two stages.
+0,light-screen,,,30,0,status,users-field,psychic,Reduces damage from special attacks by 50% for five turns.
+0,haze,,,30,0,status,entire-field,ice,"Resets all Pokémon's stats, accuracy, and evasion."
+0,reflect,,,20,0,status,users-field,psychic,Reduces damage from physical attacks by half.
+0,focus-energy,,,30,0,status,user,normal,Increases the user's chance to score a critical hit.
+0,bide,,,10,1,physical,user,normal,"User waits for two turns, then hits back for twice the damage it took."
+0,metronome,,,10,0,status,user,normal,Randomly selects and uses any move in the game.
+0,mirror-move,,,20,0,status,selected-pokemon,flying,Uses the target's last used move.
+0,self-destruct,200,100,5,0,physical,all-other-pokemon,normal,User faints.
+0,egg-bomb,100,75,10,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,lick,30,100,30,0,physical,selected-pokemon,ghost,Has a 30% chance to paralyze the target.
+0,smog,30,70,20,0,special,selected-pokemon,poison,Has a 40% chance to poison the target.
+0,sludge,65,100,20,0,special,selected-pokemon,poison,Has a 30% chance to poison the target.
+0,bone-club,65,85,20,0,physical,selected-pokemon,ground,Has a 10% chance to make the target flinch.
+0,fire-blast,110,85,5,0,special,selected-pokemon,fire,Has a 10% chance to burn the target.
+0,waterfall,80,100,15,0,physical,selected-pokemon,water,Has a 20% chance to make the target flinch.
+0,clamp,35,85,15,0,physical,selected-pokemon,water,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,swift,60,,20,0,special,all-opponents,normal,Never misses.
+0,skull-bash,130,100,10,0,physical,selected-pokemon,normal,Raises the user's Defense by one stage.  User charges for one turn before attacking.
+0,spike-cannon,20,100,15,0,physical,selected-pokemon,normal,Hits 2-5 times in one turn.
+0,constrict,10,100,35,0,physical,selected-pokemon,normal,Has a 10% chance to lower the target's Speed by one stage.
+0,amnesia,,,20,0,status,user,psychic,Raises the user's Special Defense by two stages.
+0,kinesis,,80,15,0,status,selected-pokemon,psychic,Lowers the target's accuracy by one stage.
+0,soft-boiled,,,5,0,status,user,normal,Heals the user by half its max HP.
+0,high-jump-kick,130,90,10,0,physical,selected-pokemon,fighting,"If the user misses, it takes half the damage it would have inflicted in recoil."
+0,glare,,100,30,0,status,selected-pokemon,normal,Paralyzes the target.
+0,dream-eater,100,100,15,0,special,selected-pokemon,psychic,Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user.
+0,poison-gas,,90,40,0,status,all-opponents,poison,Poisons the target.
+0,barrage,15,85,20,0,physical,selected-pokemon,normal,Hits 2-5 times in one turn.
+0,leech-life,80,100,10,0,physical,selected-pokemon,bug,Drains half the damage inflicted to heal the user.
+0,lovely-kiss,,75,10,0,status,selected-pokemon,normal,Puts the target to sleep.
+0,sky-attack,140,90,5,0,physical,selected-pokemon,flying,User charges for one turn before attacking.  Has a 30% chance to make the target flinch.
+0,transform,,,10,0,status,selected-pokemon,normal,User becomes a copy of the target until it leaves battle.
+0,bubble,40,100,30,0,special,all-opponents,water,Has a 10% chance to lower the target's Speed by one stage.
+0,dizzy-punch,70,100,10,0,physical,selected-pokemon,normal,Has a 20% chance to confuse the target.
+0,spore,,100,15,0,status,selected-pokemon,grass,Puts the target to sleep.
+0,flash,,100,20,0,status,selected-pokemon,normal,Lowers the target's accuracy by one stage.
+0,psywave,,100,15,0,special,selected-pokemon,psychic,Inflicts damage between 50% and 150% of the user's level.
+0,splash,,,40,0,status,user,normal,Does nothing.
+0,acid-armor,,,20,0,status,user,poison,Raises the user's Defense by two stages.
+0,crabhammer,100,90,10,0,physical,selected-pokemon,water,Has an increased chance for a critical hit.
+0,explosion,250,100,5,0,physical,all-other-pokemon,normal,User faints.
+0,fury-swipes,18,80,15,0,physical,selected-pokemon,normal,Hits 2-5 times in one turn.
+0,bonemerang,50,90,10,0,physical,selected-pokemon,ground,Hits twice in one turn.
+0,rest,,,5,0,status,user,psychic,"User sleeps for two turns, completely healing itself."
+0,rock-slide,75,90,10,0,physical,all-opponents,rock,Has a 30% chance to make the target flinch.
+0,hyper-fang,80,90,15,0,physical,selected-pokemon,normal,Has a 10% chance to make the target flinch.
+0,sharpen,,,30,0,status,user,normal,Raises the user's Attack by one stage.
+0,conversion,,,30,0,status,user,normal,User's type changes to the type of one of its moves at random.
+0,tri-attack,80,100,10,0,special,selected-pokemon,normal,"Has a 20% chance to burn, freeze, or paralyze the target."
+0,super-fang,,90,10,0,physical,selected-pokemon,normal,Inflicts damage equal to half the target's HP.
+0,slash,70,100,20,0,physical,selected-pokemon,normal,Has an increased chance for a critical hit.
+0,substitute,,,10,0,status,user,normal,"Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
+0,struggle,50,,1,0,physical,random-opponent,normal,User takes 1/4 its max HP in recoil.
+0,sketch,,,1,0,status,selected-pokemon,normal,Permanently becomes the target's last used move.
+0,triple-kick,10,90,10,0,physical,selected-pokemon,fighting,"Hits three times, increasing power by 100% with each successful hit."
+0,thief,60,100,25,0,physical,selected-pokemon,dark,Takes the target's item.
+0,spider-web,,,10,0,status,selected-pokemon,bug,Prevents the target from leaving battle.
+0,mind-reader,,,5,0,status,selected-pokemon,normal,Ensures that the user's next move will hit the target.
+0,nightmare,,100,15,0,status,selected-pokemon,ghost,Target loses 1/4 its max HP every turn as long as it's asleep.
+0,flame-wheel,60,100,25,0,physical,selected-pokemon,fire,Has a 10% chance to burn the target.  Lets frozen Pokémon thaw themselves.
+0,snore,50,100,15,0,special,selected-pokemon,normal,Has a 30% chance to make the target flinch.  Only works if the user is sleeping.
+0,curse,,,10,0,status,specific-move,ghost,Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.
+0,flail,,100,15,0,physical,selected-pokemon,normal,"Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+0,conversion-2,,,30,0,status,selected-pokemon,normal,Changes the user's type to a random type either resistant or immune to the last move used against it.
+0,aeroblast,100,95,5,0,special,selected-pokemon,flying,Has an increased chance for a critical hit.
+0,cotton-spore,,100,40,0,status,all-opponents,grass,Lowers the target's Speed by two stages.
+0,reversal,,100,15,0,physical,selected-pokemon,fighting,"Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+0,spite,,100,10,0,status,selected-pokemon,ghost,Lowers the PP of the target's last used move by 4.
+0,powder-snow,40,100,25,0,special,all-opponents,ice,Has a 10% chance to freeze the target.
+0,protect,,,10,4,status,user,normal,Prevents any moves from hitting the user this turn.
+0,mach-punch,40,100,30,1,physical,selected-pokemon,fighting,Inflicts regular damage with no additional effect.
+0,scary-face,,100,10,0,status,selected-pokemon,normal,Lowers the target's Speed by two stages.
+0,feint-attack,60,,20,0,physical,selected-pokemon,dark,Never misses.
+0,sweet-kiss,,75,10,0,status,selected-pokemon,fairy,Confuses the target.
+0,belly-drum,,,10,0,status,user,normal,User pays half its max HP to max out its Attack.
+0,sludge-bomb,90,100,10,0,special,selected-pokemon,poison,Has a 30% chance to poison the target.
+0,mud-slap,20,100,10,0,special,selected-pokemon,ground,Has a 100% chance to lower the target's accuracy by one stage.
+0,octazooka,65,85,10,0,special,selected-pokemon,water,Has a 50% chance to lower the target's accuracy by one stage.
+0,spikes,,,20,0,status,opponents-field,ground,"Scatters Spikes, hurting opposing Pokémon that switch in."
+0,zap-cannon,120,50,5,0,special,selected-pokemon,electric,Has a 100% chance to paralyze the target.
+0,foresight,,,40,0,status,selected-pokemon,normal,"Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+0,destiny-bond,,,5,0,status,user,ghost,"If the user faints this turn, the target automatically will, too."
+0,perish-song,,,5,0,status,all-pokemon,normal,User and target both faint after three turns.
+0,icy-wind,55,95,15,0,special,all-opponents,ice,Has a 100% chance to lower the target's Speed by one stage.
+0,detect,,,5,4,status,user,fighting,Prevents any moves from hitting the user this turn.
+0,bone-rush,25,90,10,0,physical,selected-pokemon,ground,Hits 2-5 times in one turn.
+0,lock-on,,,5,0,status,selected-pokemon,normal,Ensures that the user's next move will hit the target.
+0,outrage,120,100,10,0,physical,random-opponent,dragon,"Hits every turn for 2-3 turns, then confuses the user."
+0,sandstorm,,,10,0,status,entire-field,rock,Changes the weather to a sandstorm for five turns.
+0,giga-drain,75,100,10,0,special,selected-pokemon,grass,Drains half the damage inflicted to heal the user.
+0,endure,,,10,4,status,user,normal,Prevents the user's HP from lowering below 1 this turn.
+0,charm,,100,20,0,status,selected-pokemon,fairy,Lowers the target's Attack by two stages.
+0,rollout,30,90,20,0,physical,selected-pokemon,rock,"Power doubles every turn this move is used in succession after the first, resetting after five turns."
+0,false-swipe,40,100,40,0,physical,selected-pokemon,normal,Cannot lower the target's HP below 1.
+0,swagger,,85,15,0,status,selected-pokemon,normal,Raises the target's Attack by two stages and confuses the target.
+0,milk-drink,,,5,0,status,user,normal,Heals the user by half its max HP.
+0,spark,65,100,20,0,physical,selected-pokemon,electric,Has a 30% chance to paralyze the target.
+0,fury-cutter,40,95,20,0,physical,selected-pokemon,bug,"Power doubles every turn this move is used in succession after the first, maxing out after five turns."
+0,steel-wing,70,90,25,0,physical,selected-pokemon,steel,Has a 10% chance to raise the user's Defense by one stage.
+0,mean-look,,,5,0,status,selected-pokemon,normal,Prevents the target from leaving battle.
+0,attract,,100,15,0,status,selected-pokemon,normal,"Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user."
+0,sleep-talk,,,10,0,status,user,normal,Randomly uses one of the user's other three moves.  Only works if the user is sleeping.
+0,heal-bell,,,5,0,status,user-and-allies,normal,Cures the entire party of major status effects.
+0,return,,100,20,0,physical,selected-pokemon,normal,"Power increases with happiness, up to a maximum of 102."
+0,present,,90,15,0,physical,selected-pokemon,normal,Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP.
+0,frustration,,100,20,0,physical,selected-pokemon,normal,"Power increases as happiness decreases, up to a maximum of 102."
+0,safeguard,,,25,0,status,users-field,normal,Protects the user's field from major status ailments and confusion for five turns.
+0,pain-split,,,20,0,status,selected-pokemon,normal,Sets the user's and targets's HP to the average of their current HP.
+0,sacred-fire,100,95,5,0,physical,selected-pokemon,fire,Has a 50% chance to burn the target.  Lets frozen Pokémon thaw themselves.
+0,magnitude,,100,30,0,physical,all-other-pokemon,ground,Power varies randomly from 10 to 150.
+0,dynamic-punch,100,50,5,0,physical,selected-pokemon,fighting,Has a 100% chance to confuse the target.
+0,megahorn,120,85,10,0,physical,selected-pokemon,bug,Inflicts regular damage with no additional effect.
+0,dragon-breath,60,100,20,0,special,selected-pokemon,dragon,Has a 30% chance to paralyze the target.
+0,baton-pass,,,40,0,status,user,normal,Allows the trainer to switch out the user and pass effects along to its replacement.
+0,encore,,100,5,0,status,selected-pokemon,normal,Forces the target to repeat its last used move every turn for 2 to 6 turns.
+0,pursuit,40,100,20,0,physical,selected-pokemon,dark,"Has double power against, and can hit, Pokémon attempting to switch out."
+0,rapid-spin,50,100,40,0,physical,selected-pokemon,normal,"Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
+0,sweet-scent,,100,20,0,status,all-opponents,normal,Lowers the target's evasion by one stage.
+0,iron-tail,100,75,15,0,physical,selected-pokemon,steel,Has a 30% chance to lower the target's Defense by one stage.
+0,metal-claw,50,95,35,0,physical,selected-pokemon,steel,Has a 10% chance to raise the user's Attack by one stage.
+0,vital-throw,70,,10,-1,physical,selected-pokemon,fighting,Never misses.
+0,morning-sun,,,5,0,status,user,normal,Heals the user by half its max HP.  Affected by weather.
+0,synthesis,,,5,0,status,user,grass,Heals the user by half its max HP.  Affected by weather.
+0,moonlight,,,5,0,status,user,fairy,Heals the user by half its max HP.  Affected by weather.
+0,hidden-power,60,100,15,0,special,selected-pokemon,normal,Power and type depend upon user's IVs.  Power can range from 30 to 70.
+0,cross-chop,100,80,5,0,physical,selected-pokemon,fighting,Has an increased chance for a critical hit.
+0,twister,40,100,20,0,special,all-opponents,dragon,Has a 20% chance to make the target flinch.
+0,rain-dance,,,5,0,status,entire-field,water,Changes the weather to rain for five turns.
+0,sunny-day,,,5,0,status,entire-field,fire,Changes the weather to sunny for five turns.
+0,crunch,80,100,15,0,physical,selected-pokemon,dark,Has a 20% chance to lower the target's Defense by one stage.
+0,mirror-coat,,100,20,-5,special,specific-move,psychic,Inflicts twice the damage the user received from the last special hit it took.
+0,psych-up,,,10,0,status,selected-pokemon,normal,Discards the user's stat changes and copies the target's.
+0,extreme-speed,80,100,5,2,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,ancient-power,60,100,5,0,special,selected-pokemon,rock,Has a 10% chance to raise all of the user's stats by one stage.
+0,shadow-ball,80,100,15,0,special,selected-pokemon,ghost,Has a 20% chance to lower the target's Special Defense by one stage.
+0,future-sight,120,100,10,0,special,selected-pokemon,psychic,Hits the target two turns later.
+0,rock-smash,40,100,15,0,physical,selected-pokemon,fighting,Has a 50% chance to lower the target's Defense by one stage.
+0,whirlpool,35,85,15,0,special,selected-pokemon,water,Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.
+0,beat-up,,100,10,0,physical,selected-pokemon,dark,Hits once for every conscious Pokémon the trainer has.
+0,fake-out,40,100,10,3,physical,selected-pokemon,normal,Can only be used as the first move after the user enters battle.  Causes the target to flinch.
+0,uproar,90,100,10,0,special,random-opponent,normal,Forced to use this move for several turns.  Pokémon cannot fall asleep in that time.
+0,stockpile,,,20,0,status,user,normal,Stores energy up to three times for use with Spit Up and Swallow.
+0,spit-up,,100,10,0,special,selected-pokemon,normal,Power is 100 times the amount of energy Stockpiled.
+0,swallow,,,10,0,status,user,normal,"Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
+0,heat-wave,95,90,10,0,special,all-opponents,fire,Has a 10% chance to burn the target.
+0,hail,,,10,0,status,entire-field,ice,Changes the weather to a hailstorm for five turns.
+0,torment,,100,15,0,status,selected-pokemon,dark,Prevents the target from using the same move twice in a row.
+0,flatter,,100,15,0,status,selected-pokemon,dark,Raises the target's Special Attack by one stage and confuses the target.
+0,will-o-wisp,,85,15,0,status,selected-pokemon,fire,Burns the target.
+0,memento,,100,10,0,status,selected-pokemon,dark,Lowers the target's Attack and Special Attack by two stages.  User faints.
+0,facade,70,100,20,0,physical,selected-pokemon,normal,"Power doubles if user is burned, paralyzed, or poisoned."
+0,focus-punch,150,100,20,-3,physical,selected-pokemon,fighting,"If the user takes damage before attacking, the attack is canceled."
+0,smelling-salts,70,100,10,0,physical,selected-pokemon,normal,"If the target is paralyzed, inflicts double damage and cures the paralysis."
+0,follow-me,,,20,2,status,user,normal,Redirects the target's single-target effects to the user for this turn.
+0,nature-power,,,20,0,status,selected-pokemon,normal,Uses a move which depends upon the terrain.
+0,charge,,,20,0,status,user,electric,Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn.
+0,taunt,,100,20,0,status,selected-pokemon,dark,"For the next few turns, the target can only use damaging moves."
+0,helping-hand,,,20,5,status,ally,normal,Ally's next move inflicts half more damage.
+0,trick,,100,10,0,status,selected-pokemon,psychic,User and target swap items.
+0,role-play,,,10,0,status,selected-pokemon,psychic,Copies the target's ability.
+0,wish,,,10,0,status,user,normal,User will recover half its max HP at the end of the next turn.
+0,assist,,,20,0,status,user,normal,Randomly selects and uses one of the trainer's other Pokémon's moves.
+0,ingrain,,,20,0,status,user,grass,Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.
+0,superpower,120,100,5,0,physical,selected-pokemon,fighting,Lowers the user's Attack and Defense by one stage after inflicting damage.
+0,magic-coat,,,15,4,status,user,psychic,Reflects back the first effect move used on the user this turn.
+0,recycle,,,10,0,status,user,normal,User recovers the item it last used up.
+0,revenge,60,100,10,-4,physical,selected-pokemon,fighting,Inflicts double damage if the user takes damage before attacking this turn.
+0,brick-break,75,100,15,0,physical,selected-pokemon,fighting,Destroys Reflect and Light Screen.
+0,yawn,,,10,0,status,selected-pokemon,normal,Target sleeps at the end of the next turn.
+0,knock-off,65,100,20,0,physical,selected-pokemon,dark,Target drops its held item.
+0,endeavor,,100,5,0,physical,selected-pokemon,normal,Lowers the target's HP to equal the user's.
+0,eruption,150,100,5,0,special,all-opponents,fire,"Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+0,skill-swap,,,10,0,status,selected-pokemon,psychic,User and target swap abilities.
+0,imprison,,,10,0,status,user,psychic,Prevents the target from using any moves that the user also knows.
+0,refresh,,,20,0,status,user,normal,"Cleanses the user of a burn, paralysis, or poison."
+0,grudge,,,5,0,status,user,ghost,"If the user faints this turn, the PP of the move that fainted it drops to 0."
+0,snatch,,,10,4,status,user,dark,"Steals the target's move, if it's self-targeted."
+0,secret-power,70,100,20,0,physical,selected-pokemon,normal,Has a 30% chance to inflict a status effect which depends upon the terrain.
+0,dive,80,100,10,0,physical,selected-pokemon,water,"User dives underwater, dodging all attacks, and hits next turn."
+0,arm-thrust,15,100,20,0,physical,selected-pokemon,fighting,Hits 2-5 times in one turn.
+0,camouflage,,,20,0,status,user,normal,User's type changes to match the terrain.
+0,tail-glow,,,20,0,status,user,bug,Raises the user's Special Attack by three stages.
+0,luster-purge,95,100,5,0,special,selected-pokemon,psychic,Has a 50% chance to lower the target's Special Defense by one stage.
+0,mist-ball,95,100,5,0,special,selected-pokemon,psychic,Has a 50% chance to lower the target's Special Attack by one stage.
+0,feather-dance,,100,15,0,status,selected-pokemon,flying,Lowers the target's Attack by two stages.
+0,teeter-dance,,100,20,0,status,all-other-pokemon,normal,Confuses the target.
+0,blaze-kick,85,90,10,0,physical,selected-pokemon,fire,Has an increased chance for a critical hit and a 10% chance to burn the target.
+0,mud-sport,,,15,0,status,entire-field,ground,Halves all Electric-type damage.
+0,ice-ball,30,90,20,0,physical,selected-pokemon,ice,"Power doubles every turn this move is used in succession after the first, resetting after five turns."
+0,needle-arm,60,100,15,0,physical,selected-pokemon,grass,Has a 30% chance to make the target flinch.
+0,slack-off,,,5,0,status,user,normal,Heals the user by half its max HP.
+0,hyper-voice,90,100,10,0,special,all-opponents,normal,Inflicts regular damage with no additional effect.
+0,poison-fang,50,100,15,0,physical,selected-pokemon,poison,Has a 50% chance to badly poison the target.
+0,crush-claw,75,95,10,0,physical,selected-pokemon,normal,Has a 50% chance to lower the target's Defense by one stage.
+0,blast-burn,150,90,5,0,special,selected-pokemon,fire,User foregoes its next turn to recharge.
+0,hydro-cannon,150,90,5,0,special,selected-pokemon,water,User foregoes its next turn to recharge.
+0,meteor-mash,90,90,10,0,physical,selected-pokemon,steel,Has a 20% chance to raise the user's Attack by one stage.
+0,astonish,30,100,15,0,physical,selected-pokemon,ghost,Has a 30% chance to make the target flinch.
+0,weather-ball,50,100,10,0,special,selected-pokemon,normal,"If there be weather, this move has doubled power and the weather's type."
+0,aromatherapy,,,5,0,status,user-and-allies,grass,Cures the entire party of major status effects.
+0,fake-tears,,100,20,0,status,selected-pokemon,dark,Lowers the target's Special Defense by two stages.
+0,air-cutter,60,95,25,0,special,all-opponents,flying,Has an increased chance for a critical hit.
+0,overheat,130,90,5,0,special,selected-pokemon,fire,Lowers the user's Special Attack by two stages after inflicting damage.
+0,odor-sleuth,,,40,0,status,selected-pokemon,normal,"Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+0,rock-tomb,60,95,15,0,physical,selected-pokemon,rock,Has a 100% chance to lower the target's Speed by one stage.
+0,silver-wind,60,100,5,0,special,selected-pokemon,bug,Has a 10% chance to raise all of the user's stats by one stage.
+0,metal-sound,,85,40,0,status,selected-pokemon,steel,Lowers the target's Special Defense by two stages.
+0,grass-whistle,,55,15,0,status,selected-pokemon,grass,Puts the target to sleep.
+0,tickle,,100,20,0,status,selected-pokemon,normal,Lowers the target's Attack and Defense by one stage.
+0,cosmic-power,,,20,0,status,user,psychic,Raises the user's Defense and Special Defense by one stage.
+0,water-spout,150,100,5,0,special,all-opponents,water,"Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+0,signal-beam,75,100,15,0,special,selected-pokemon,bug,Has a 10% chance to confuse the target.
+0,shadow-punch,60,,20,0,physical,selected-pokemon,ghost,Never misses.
+0,extrasensory,80,100,20,0,special,selected-pokemon,psychic,Has a 10% chance to make the target flinch.
+0,sky-uppercut,85,90,15,0,physical,selected-pokemon,fighting,Inflicts regular damage and can hit Bounce and Fly users.
+0,sand-tomb,35,85,15,0,physical,selected-pokemon,ground,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,sheer-cold,,30,5,0,special,selected-pokemon,ice,Causes a one-hit KO.
+0,muddy-water,90,85,10,0,special,all-opponents,water,Has a 30% chance to lower the target's accuracy by one stage.
+0,bullet-seed,25,100,30,0,physical,selected-pokemon,grass,Hits 2-5 times in one turn.
+0,aerial-ace,60,,20,0,physical,selected-pokemon,flying,Never misses.
+0,icicle-spear,25,100,30,0,physical,selected-pokemon,ice,Hits 2-5 times in one turn.
+0,iron-defense,,,15,0,status,user,steel,Raises the user's Defense by two stages.
+0,block,,,5,0,status,selected-pokemon,normal,Prevents the target from leaving battle.
+0,howl,,,40,0,status,user-and-allies,normal,Raises the user's Attack by one stage.
+0,dragon-claw,80,100,15,0,physical,selected-pokemon,dragon,Inflicts regular damage with no additional effect.
+0,frenzy-plant,150,90,5,0,special,selected-pokemon,grass,User foregoes its next turn to recharge.
+0,bulk-up,,,20,0,status,user,fighting,Raises the user's Attack and Defense by one stage.
+0,bounce,85,85,5,0,physical,selected-pokemon,flying,"User bounces high into the air, dodging all attacks, and hits next turn."
+0,mud-shot,55,95,15,0,special,selected-pokemon,ground,Has a 100% chance to lower the target's Speed by one stage.
+0,poison-tail,50,100,25,0,physical,selected-pokemon,poison,Has an increased chance for a critical hit and a 10% chance to poison the target.
+0,covet,60,100,25,0,physical,selected-pokemon,normal,Takes the target's item.
+0,volt-tackle,120,100,15,0,physical,selected-pokemon,electric,User takes 1/3 the damage inflicted in recoil.  Has a 10% chance to paralyze the target.
+0,magical-leaf,60,,20,0,special,selected-pokemon,grass,Never misses.
+0,water-sport,,,15,0,status,entire-field,water,Halves all Fire-type damage.
+0,calm-mind,,,20,0,status,user,psychic,Raises the user's Special Attack and Special Defense by one stage.
+0,leaf-blade,90,100,15,0,physical,selected-pokemon,grass,Has an increased chance for a critical hit.
+0,dragon-dance,,,20,0,status,user,dragon,Raises the user's Attack and Speed by one stage.
+0,rock-blast,25,90,10,0,physical,selected-pokemon,rock,Hits 2-5 times in one turn.
+0,shock-wave,60,,20,0,special,selected-pokemon,electric,Never misses.
+0,water-pulse,60,100,20,0,special,selected-pokemon,water,Has a 20% chance to confuse the target.
+0,doom-desire,140,100,5,0,special,selected-pokemon,steel,Hits the target two turns later.
+0,psycho-boost,140,90,5,0,special,selected-pokemon,psychic,Lowers the user's Special Attack by two stages after inflicting damage.
+0,roost,,,5,0,status,user,flying,Heals the user by half its max HP.
+0,gravity,,,5,0,status,entire-field,psychic,Disables moves and immunities that involve flying or levitating for five turns.
+0,miracle-eye,,,40,0,status,selected-pokemon,psychic,"Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark."
+0,wake-up-slap,70,100,10,0,physical,selected-pokemon,fighting,"If the target is asleep, has double power and wakes it up."
+0,hammer-arm,100,90,10,0,physical,selected-pokemon,fighting,Lowers user's Speed by one stage.
+0,gyro-ball,,100,5,0,physical,selected-pokemon,steel,"Power raises when the user has lower Speed, up to a maximum of 150."
+0,healing-wish,,,10,0,status,user,psychic,User faints.  Its replacement has its HP fully restored and any major status effect removed.
+0,brine,65,100,10,0,special,selected-pokemon,water,Has double power against Pokémon that have less than half their max HP remaining.
+0,natural-gift,,100,15,0,physical,selected-pokemon,normal,Power and type depend on the held berry.
+0,feint,30,100,10,2,physical,selected-pokemon,normal,Hits through Protect and Detect.
+0,pluck,60,100,20,0,physical,selected-pokemon,flying,"If target has a berry, inflicts double damage and uses the berry."
+0,tailwind,,,15,0,status,users-field,flying,"For three turns, friendly Pokémon have doubled Speed."
+0,acupressure,,,30,0,status,user-or-ally,normal,Raises one of a friendly Pokémon's stats at random by two stages.
+0,metal-burst,,100,10,0,physical,specific-move,steel,Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage.
+0,u-turn,70,100,20,0,physical,selected-pokemon,bug,User must switch out after attacking.
+0,close-combat,120,100,5,0,physical,selected-pokemon,fighting,Lowers the user's Defense and Special Defense by one stage after inflicting damage.
+0,payback,50,100,10,0,physical,selected-pokemon,dark,Power is doubled if the target has already moved this turn.
+0,assurance,60,100,10,0,physical,selected-pokemon,dark,Power is doubled if the target has already received damage this turn.
+0,embargo,,100,15,0,status,selected-pokemon,dark,Target cannot use held items.
+0,fling,,100,10,0,physical,selected-pokemon,dark,Throws held item at the target; power depends on the item.
+0,psycho-shift,,100,10,0,status,selected-pokemon,psychic,Transfers the user's major status effect to the target.
+0,trump-card,,,5,0,special,selected-pokemon,normal,"Power increases when this move has less PP, up to a maximum of 200."
+0,heal-block,,100,15,0,status,all-opponents,psychic,Prevents target from restoring its HP for five turns.
+0,wring-out,,100,5,0,special,selected-pokemon,normal,"Power increases against targets with more HP remaining, up to a maximum of 121 power."
+0,power-trick,,,10,0,status,user,psychic,User swaps Attack and Defense.
+0,gastro-acid,,100,10,0,status,selected-pokemon,poison,Nullifies target's ability until it leaves battle.
+0,lucky-chant,,,30,0,status,users-field,normal,Prevents the target from scoring critical hits for five turns.
+0,me-first,,,20,0,status,selected-pokemon-me-first,normal,"Uses the target's move against it before it attacks, with power increased by half."
+0,copycat,,,20,0,status,user,normal,Uses the target's last used move.
+0,power-swap,,,10,0,status,selected-pokemon,psychic,User swaps Attack and Special Attack changes with the target.
+0,guard-swap,,,10,0,status,selected-pokemon,psychic,User swaps Defense and Special Defense changes with the target.
+0,punishment,,100,5,0,physical,selected-pokemon,dark,"Power increases against targets with more raised stats, up to a maximum of 200."
+0,last-resort,140,100,5,0,physical,selected-pokemon,normal,Can only be used after all of the user's other moves have been used.
+0,worry-seed,,100,10,0,status,selected-pokemon,grass,Changes the target's ability to Insomnia.
+0,sucker-punch,70,100,5,1,physical,selected-pokemon,dark,Only works if the target is about to use a damaging move.
+0,toxic-spikes,,,20,0,status,opponents-field,poison,"Scatters poisoned spikes, poisoning opposing Pokémon that switch in."
+0,heart-swap,,,10,0,status,selected-pokemon,psychic,User and target swap stat changes.
+0,aqua-ring,,,20,0,status,user,water,Restores 1/16 of the user's max HP each turn.
+0,magnet-rise,,,10,0,status,user,electric,User is immune to Ground moves and effects for five turns.
+0,flare-blitz,120,100,15,0,physical,selected-pokemon,fire,User takes 1/3 the damage inflicted in recoil.  Has a 10% chance to burn the target.
+0,force-palm,60,100,10,0,physical,selected-pokemon,fighting,Has a 30% chance to paralyze the target.
+0,aura-sphere,80,,20,0,special,selected-pokemon,fighting,Never misses.
+0,rock-polish,,,20,0,status,user,rock,Raises the user's Speed by two stages.
+0,poison-jab,80,100,20,0,physical,selected-pokemon,poison,Has a 30% chance to poison the target.
+0,dark-pulse,80,100,15,0,special,selected-pokemon,dark,Has a 20% chance to make the target flinch.
+0,night-slash,70,100,15,0,physical,selected-pokemon,dark,Has an increased chance for a critical hit.
+0,aqua-tail,90,90,10,0,physical,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,seed-bomb,80,100,15,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,air-slash,75,95,15,0,special,selected-pokemon,flying,Has a 30% chance to make the target flinch.
+0,x-scissor,80,100,15,0,physical,selected-pokemon,bug,Inflicts regular damage with no additional effect.
+0,bug-buzz,90,100,10,0,special,selected-pokemon,bug,Has a 10% chance to lower the target's Special Defense by one stage.
+0,dragon-pulse,85,100,10,0,special,selected-pokemon,dragon,Inflicts regular damage with no additional effect.
+0,dragon-rush,100,75,10,0,physical,selected-pokemon,dragon,Has a 20% chance to make the target flinch.
+0,power-gem,80,100,20,0,special,selected-pokemon,rock,Inflicts regular damage with no additional effect.
+0,drain-punch,75,100,10,0,physical,selected-pokemon,fighting,Drains half the damage inflicted to heal the user.
+0,vacuum-wave,40,100,30,1,special,selected-pokemon,fighting,Inflicts regular damage with no additional effect.
+0,focus-blast,120,70,5,0,special,selected-pokemon,fighting,Has a 10% chance to lower the target's Special Defense by one stage.
+0,energy-ball,90,100,10,0,special,selected-pokemon,grass,Has a 10% chance to lower the target's Special Defense by one stage.
+0,brave-bird,120,100,15,0,physical,selected-pokemon,flying,User receives 1/3 the damage inflicted in recoil.
+0,earth-power,90,100,10,0,special,selected-pokemon,ground,Has a 10% chance to lower the target's Special Defense by one stage.
+0,switcheroo,,100,10,0,status,selected-pokemon,dark,User and target swap items.
+0,giga-impact,150,90,5,0,physical,selected-pokemon,normal,User foregoes its next turn to recharge.
+0,nasty-plot,,,20,0,status,user,dark,Raises the user's Special Attack by two stages.
+0,bullet-punch,40,100,30,1,physical,selected-pokemon,steel,Inflicts regular damage with no additional effect.
+0,avalanche,60,100,10,-4,physical,selected-pokemon,ice,Inflicts double damage if the user takes damage before attacking this turn.
+0,ice-shard,40,100,30,1,physical,selected-pokemon,ice,Inflicts regular damage with no additional effect.
+0,shadow-claw,70,100,15,0,physical,selected-pokemon,ghost,Has an increased chance for a critical hit.
+0,thunder-fang,65,95,15,0,physical,selected-pokemon,electric,Has a 10% chance to paralyze the target and a 10% chance to make the target flinch.
+0,ice-fang,65,95,15,0,physical,selected-pokemon,ice,Has a 10% chance to freeze the target and a 10% chance to make the target flinch.
+0,fire-fang,65,95,15,0,physical,selected-pokemon,fire,Has a 10% chance to burn the target and a 10% chance to make the target flinch.
+0,shadow-sneak,40,100,30,1,physical,selected-pokemon,ghost,Inflicts regular damage with no additional effect.
+0,mud-bomb,65,85,10,0,special,selected-pokemon,ground,Has a 30% chance to lower the target's accuracy by one stage.
+0,psycho-cut,70,100,20,0,physical,selected-pokemon,psychic,Has an increased chance for a critical hit.
+0,zen-headbutt,80,90,15,0,physical,selected-pokemon,psychic,Has a 20% chance to make the target flinch.
+0,mirror-shot,65,85,10,0,special,selected-pokemon,steel,Has a 30% chance to lower the target's accuracy by one stage.
+0,flash-cannon,80,100,10,0,special,selected-pokemon,steel,Has a 10% chance to lower the target's Special Defense by one stage.
+0,rock-climb,90,85,20,0,physical,selected-pokemon,normal,Has a 20% chance to confuse the target.
+0,defog,,,15,0,status,selected-pokemon,flying,Lowers the target's evasion by one stage.  Removes field effects from the enemy field.
+0,trick-room,,,5,-7,status,entire-field,psychic,"For five turns, slower Pokémon will act before faster Pokémon."
+0,draco-meteor,130,90,5,0,special,selected-pokemon,dragon,Lowers the user's Special Attack by two stages after inflicting damage.
+0,discharge,80,100,15,0,special,all-other-pokemon,electric,Has a 30% chance to paralyze the target.
+0,lava-plume,80,100,15,0,special,all-other-pokemon,fire,Has a 30% chance to burn the target.
+0,leaf-storm,130,90,5,0,special,selected-pokemon,grass,Lowers the user's Special Attack by two stages after inflicting damage.
+0,power-whip,120,85,10,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,rock-wrecker,150,90,5,0,physical,selected-pokemon,rock,User foregoes its next turn to recharge.
+0,cross-poison,70,100,20,0,physical,selected-pokemon,poison,Has an increased chance for a critical hit and a 10% chance to poison the target.
+0,gunk-shot,120,80,5,0,physical,selected-pokemon,poison,Has a 30% chance to poison the target.
+0,iron-head,80,100,15,0,physical,selected-pokemon,steel,Has a 30% chance to make the target flinch.
+0,magnet-bomb,60,,20,0,physical,selected-pokemon,steel,Never misses.
+0,stone-edge,100,80,5,0,physical,selected-pokemon,rock,Has an increased chance for a critical hit.
+0,captivate,,100,20,0,status,all-opponents,normal,Lowers the target's Special Attack by two stages if it's the opposite gender.
+0,stealth-rock,,,20,0,status,opponents-field,rock,Causes damage when opposing Pokémon switch in.
+0,grass-knot,,100,20,0,special,selected-pokemon,grass,"Inflicts more damage to heavier targets, with a maximum of 120 power."
+0,chatter,65,100,20,0,special,selected-pokemon,flying,Has a higher chance to confuse the target when the recorded sound is louder.
+0,judgment,100,100,10,0,special,selected-pokemon,normal,"If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+0,bug-bite,60,100,20,0,physical,selected-pokemon,bug,"If target has a berry, inflicts double damage and uses the berry."
+0,charge-beam,50,90,10,0,special,selected-pokemon,electric,Has a 70% chance to raise the user's Special Attack by one stage.
+0,wood-hammer,120,100,15,0,physical,selected-pokemon,grass,User receives 1/3 the damage inflicted in recoil.
+0,aqua-jet,40,100,20,1,physical,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,attack-order,90,100,15,0,physical,selected-pokemon,bug,Has an increased chance for a critical hit.
+0,defend-order,,,10,0,status,user,bug,Raises the user's Defense and Special Defense by one stage.
+0,heal-order,,,10,0,status,user,bug,Heals the user by half its max HP.
+0,head-smash,150,80,5,0,physical,selected-pokemon,rock,User receives 1/2 the damage inflicted in recoil.
+0,double-hit,35,90,10,0,physical,selected-pokemon,normal,Hits twice in one turn.
+0,roar-of-time,150,90,5,0,special,selected-pokemon,dragon,User foregoes its next turn to recharge.
+0,spacial-rend,100,95,5,0,special,selected-pokemon,dragon,Has an increased chance for a critical hit.
+0,lunar-dance,,,10,0,status,user,psychic,"User faints, and its replacement is fully healed."
+0,crush-grip,,100,5,0,physical,selected-pokemon,normal,"Power increases against targets with more HP remaining, up to a maximum of 121 power."
+0,magma-storm,100,75,5,0,special,selected-pokemon,fire,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,dark-void,,50,10,0,status,all-opponents,dark,Puts the target to sleep.
+0,seed-flare,120,85,5,0,special,selected-pokemon,grass,Has a 40% chance to lower the target's Special Defense by two stages.
+0,ominous-wind,60,100,5,0,special,selected-pokemon,ghost,Has a 10% chance to raise all of the user's stats by one stage.
+0,shadow-force,120,100,5,0,physical,selected-pokemon,ghost,"User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+0,hone-claws,,,15,0,status,user,dark,Raises the user's Attack and accuracy by one stage.
+0,wide-guard,,,10,3,status,users-field,rock,Prevents any multi-target moves from hitting friendly Pokémon this turn.
+0,guard-split,,,10,0,status,selected-pokemon,psychic,Averages Defense and Special Defense with the target.
+0,power-split,,,10,0,status,selected-pokemon,psychic,Averages Attack and Special Attack with the target.
+0,wonder-room,,,10,0,status,entire-field,psychic,All Pokémon's Defense and Special Defense are swapped for 5 turns.
+0,psyshock,80,100,10,0,special,selected-pokemon,psychic,"Inflicts damage based on the target's Defense, not Special Defense."
+0,venoshock,65,100,10,0,special,selected-pokemon,poison,Inflicts double damage if the target is Poisoned.
+0,autotomize,,,15,0,status,user,steel,Raises the user's Speed by two stages and halves the user's weight.
+0,rage-powder,,,20,2,status,user,bug,Redirects the target's single-target effects to the user for this turn.
+0,telekinesis,,,15,0,status,selected-pokemon,psychic,Moves have 100% accuracy against the target for three turns.
+0,magic-room,,,10,0,status,entire-field,psychic,Negates held items for five turns.
+0,smack-down,50,100,15,0,physical,selected-pokemon,rock,Removes any immunity to Ground damage.
+0,storm-throw,60,100,10,0,physical,selected-pokemon,fighting,Always scores a critical hit.
+0,flame-burst,70,100,15,0,special,selected-pokemon,fire,Deals splash damage to Pokémon next to the target.
+0,sludge-wave,95,100,10,0,special,all-other-pokemon,poison,Has a 10% chance to poison the target.
+0,quiver-dance,,,20,0,status,user,bug,"Raises the user's Special Attack, Special Defense, and Speed by one stage each."
+0,heavy-slam,,100,10,0,physical,selected-pokemon,steel,"Power is higher when the user weighs more than the target, up to a maximum of 120."
+0,synchronoise,120,100,10,0,special,all-other-pokemon,psychic,Hits any Pokémon that shares a type with the user.
+0,electro-ball,,100,10,0,special,selected-pokemon,electric,"Power is higher when the user has greater Speed than the target, up to a maximum of 150."
+0,soak,,100,20,0,status,selected-pokemon,water,Changes the target's type to Water.
+0,flame-charge,50,100,20,0,physical,selected-pokemon,fire,Inflicts regular damage.  Raises the user's Speed by one stage.
+0,coil,,,20,0,status,user,poison,"Raises the user's Attack, Defense, and accuracy by one stage each."
+0,low-sweep,65,100,20,0,physical,selected-pokemon,fighting,Lowers the target's Speed by one stage.
+0,acid-spray,40,100,20,0,special,selected-pokemon,poison,Lowers the target's Special Defense by two stages.
+0,foul-play,95,100,15,0,physical,selected-pokemon,dark,Calculates damage with the target's attacking stat.
+0,simple-beam,,100,15,0,status,selected-pokemon,normal,Changes the target's ability to Simple.
+0,entrainment,,100,15,0,status,selected-pokemon,normal,Copies the user's ability onto the target.
+0,after-you,,,15,0,status,selected-pokemon,normal,Makes the target act next this turn.
+0,round,60,100,15,0,special,selected-pokemon,normal,Has double power if it's used more than once per turn.
+0,echoed-voice,40,100,15,0,special,selected-pokemon,normal,"Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200."
+0,chip-away,70,100,20,0,physical,selected-pokemon,normal,Ignores the target's stat modifiers.
+0,clear-smog,50,,15,0,special,selected-pokemon,poison,Removes all of the target's stat modifiers.
+0,stored-power,20,100,10,0,special,selected-pokemon,psychic,"Power is higher the more the user's stats have been raised, to a maximum of 31×."
+0,quick-guard,,,15,3,status,users-field,fighting,Prevents any priority moves from hitting friendly Pokémon this turn.
+0,ally-switch,,,15,2,status,user,psychic,User switches places with the friendly Pokémon opposite it.
+0,scald,80,100,15,0,special,selected-pokemon,water,Has a 30% chance to burn the target.
+0,shell-smash,,,15,0,status,user,normal,"Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage."
+0,heal-pulse,,,10,0,status,selected-pokemon,psychic,Heals the target for half its max HP.
+0,hex,65,100,10,0,special,selected-pokemon,ghost,Has double power if the target has a major status ailment.
+0,sky-drop,60,100,10,0,physical,selected-pokemon,flying,"Carries the target high into the air, dodging all attacks against either, and drops it next turn."
+0,shift-gear,,,10,0,status,user,steel,Raises the user's Attack by one stage and its Speed by two stages.
+0,circle-throw,60,90,10,-6,physical,selected-pokemon,fighting,Ends wild battles.  Forces trainers to switch Pokémon.
+0,incinerate,60,100,15,0,special,all-opponents,fire,Destroys the target's held berry.
+0,quash,,100,15,0,status,selected-pokemon,dark,Makes the target act last this turn.
+0,acrobatics,55,100,15,0,physical,selected-pokemon,flying,Has double power if the user has no held item.
+0,reflect-type,,,15,0,status,selected-pokemon,normal,User becomes the target's type.
+0,retaliate,70,100,5,0,physical,selected-pokemon,normal,Has double power if a friendly Pokémon fainted last turn.
+0,final-gambit,,100,5,0,special,selected-pokemon,fighting,Inflicts damage equal to the user's remaining HP.  User faints.
+0,bestow,,,15,0,status,selected-pokemon,normal,Gives the user's held item to the target.
+0,inferno,100,50,5,0,special,selected-pokemon,fire,Has a 100% chance to burn the target.
+0,water-pledge,80,100,10,0,special,selected-pokemon,water,"With Grass Pledge, halves opposing Pokémon's Speed for four turns."
+0,fire-pledge,80,100,10,0,special,selected-pokemon,fire,"With Water Pledge, doubles the effect chance of friendly Pokémon's moves for four turns."
+0,grass-pledge,80,100,10,0,special,selected-pokemon,grass,"With Fire Pledge, damages opposing Pokémon for 1/8 their max HP every turn for four turns."
+0,volt-switch,70,100,20,0,special,selected-pokemon,electric,User must switch out after attacking.
+0,struggle-bug,50,100,20,0,special,all-opponents,bug,Has a 100% chance to lower the target's Special Attack by one stage.
+0,bulldoze,60,100,20,0,physical,all-other-pokemon,ground,Has a 100% chance to lower the target's Speed by one stage.
+0,frost-breath,60,90,10,0,special,selected-pokemon,ice,Always scores a critical hit.
+0,dragon-tail,60,90,10,-6,physical,selected-pokemon,dragon,Ends wild battles.  Forces trainers to switch Pokémon.
+0,work-up,,,30,0,status,user,normal,Raises the user's Attack and Special Attack by one stage each.
+0,electroweb,55,95,15,0,special,all-opponents,electric,Lowers the target's Speed by one stage.
+0,wild-charge,90,100,15,0,physical,selected-pokemon,electric,User receives 1/4 the damage it inflicts in recoil.
+0,drill-run,80,95,10,0,physical,selected-pokemon,ground,Has an increased chance for a critical hit.
+0,dual-chop,40,90,15,0,physical,selected-pokemon,dragon,Hits twice in one turn.
+0,heart-stamp,60,100,25,0,physical,selected-pokemon,psychic,Has a 30% chance to make the target flinch.
+0,horn-leech,75,100,10,0,physical,selected-pokemon,grass,Drains half the damage inflicted to heal the user.
+0,sacred-sword,90,100,15,0,physical,selected-pokemon,fighting,Ignores the target's stat modifiers.
+0,razor-shell,75,95,10,0,physical,selected-pokemon,water,Has a 50% chance to lower the target's Defense by one stage.
+0,heat-crash,,100,10,0,physical,selected-pokemon,fire,"Power is higher when the user weighs more than the target, up to a maximum of 120."
+0,leaf-tornado,65,90,10,0,special,selected-pokemon,grass,Has a 50% chance to lower the target's accuracy by one stage.
+0,steamroller,65,100,20,0,physical,selected-pokemon,bug,Has a 30% chance to make the target flinch.
+0,cotton-guard,,,10,0,status,user,grass,Raises the user's Defense by three stages.
+0,night-daze,85,95,10,0,special,selected-pokemon,dark,Has a 40% chance to lower the target's accuracy by one stage.
+0,psystrike,100,100,10,0,special,selected-pokemon,psychic,"Inflicts damage based on the target's Defense, not Special Defense."
+0,tail-slap,25,85,10,0,physical,selected-pokemon,normal,Hits 2-5 times in one turn.
+0,hurricane,110,70,10,0,special,selected-pokemon,flying,Has a 30% chance to confuse the target.
+0,head-charge,120,100,15,0,physical,selected-pokemon,normal,User receives 1/4 the damage it inflicts in recoil.
+0,gear-grind,50,85,15,0,physical,selected-pokemon,steel,Hits twice in one turn.
+0,searing-shot,100,100,5,0,special,all-other-pokemon,fire,Has a 30% chance to burn the target.
+0,techno-blast,120,100,5,0,special,selected-pokemon,normal,"If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+0,relic-song,75,100,10,0,special,all-opponents,normal,Has a 10% chance to put the target to sleep.
+0,secret-sword,85,100,10,0,special,selected-pokemon,fighting,"Inflicts damage based on the target's Defense, not Special Defense."
+0,glaciate,65,95,10,0,special,all-opponents,ice,Lowers the target's Speed by one stage.
+0,bolt-strike,130,85,5,0,physical,selected-pokemon,electric,Has a 20% chance to paralyze the target.
+0,blue-flare,130,85,5,0,special,selected-pokemon,fire,Has a 20% chance to burn the target.
+0,fiery-dance,80,100,10,0,special,selected-pokemon,fire,Has a 50% chance to raise the user's Special Attack by one stage.
+0,freeze-shock,140,90,5,0,physical,selected-pokemon,ice,Requires a turn to charge before attacking.  Has a 30% chance to paralyze the target.
+0,ice-burn,140,90,5,0,special,selected-pokemon,ice,Requires a turn to charge before attacking.  Has a 30% chance to burn the target.
+0,snarl,55,95,15,0,special,all-opponents,dark,Has a 100% chance to lower the target's Special Attack by one stage.
+0,icicle-crash,85,90,10,0,physical,selected-pokemon,ice,Has a 30% chance to make the target flinch.
+0,v-create,180,95,5,0,physical,selected-pokemon,fire,"Lowers the user's Defense, Special Defense, and Speed by one stage each."
+0,fusion-flare,100,100,5,0,special,selected-pokemon,fire,"With Fusion Bolt, inflicts double damage."
+0,fusion-bolt,100,100,5,0,physical,selected-pokemon,electric,"With Fusion Flare, inflicts double damage."
+0,flying-press,100,95,10,0,physical,selected-pokemon,fighting,Deals both fighting and flying-type damage.
+0,mat-block,,,10,0,status,users-field,fighting,Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out.
+0,belch,120,90,10,0,special,selected-pokemon,poison,Can only be used after the user has eaten a berry.
+0,rototiller,,,10,0,status,all-pokemon,ground,Raises the Attack and Special Attack of all grass Pokémon in battle.
+0,sticky-web,,,20,0,status,opponents-field,bug,"Covers the opposing field, lowering opponents' Speed by one stage upon switching in."
+0,fell-stinger,50,100,25,0,physical,selected-pokemon,bug,Raises the user's Attack by two stages if it KOs the target.
+0,phantom-force,90,100,10,0,physical,selected-pokemon,ghost,"User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+0,trick-or-treat,,100,20,0,status,selected-pokemon,ghost,Adds ghost to the target's types.
+0,noble-roar,,100,30,0,status,selected-pokemon,normal,Lowers the target's Attack and Special Attack by one stage.
+0,ion-deluge,,,25,1,status,entire-field,electric,Changes all normal moves to electric moves for the rest of the turn.
+0,parabolic-charge,65,100,20,0,special,all-other-pokemon,electric,Heals the user for half the total damage dealt to all targets.
+0,forests-curse,,100,20,0,status,selected-pokemon,grass,Adds grass to the target's types.
+0,petal-blizzard,90,100,15,0,physical,all-other-pokemon,grass,Inflicts regular damage.
+0,freeze-dry,70,100,20,0,special,selected-pokemon,ice,Super-effective against water.
+0,disarming-voice,40,,15,0,special,all-opponents,fairy,Never misses.
+0,parting-shot,,100,20,0,status,selected-pokemon,dark,Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out.
+0,topsy-turvy,,,20,0,status,selected-pokemon,dark,Inverts the target's stat modifiers.
+0,draining-kiss,50,100,10,0,special,selected-pokemon,fairy,Drains 75% of the damage inflicted to heal the user.
+0,crafty-shield,,,10,3,status,users-field,fairy,Protects all friendly Pokémon from non-damaging moves.
+0,flower-shield,,,10,0,status,all-pokemon,fairy,Raises the Defense of all grass Pokémon in battle.
+0,grassy-terrain,,,10,0,status,entire-field,grass,"For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their grass moves to 1.5× their power."
+0,misty-terrain,,,10,0,status,entire-field,fairy,"For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves."
+0,electrify,,,20,0,status,selected-pokemon,electric,Changes the target's move's type to electric if it hasn't moved yet this turn.
+0,play-rough,90,90,10,0,physical,selected-pokemon,fairy,Has a 10% chance to lower the target's Attack by one stage.
+0,fairy-wind,40,100,30,0,special,selected-pokemon,fairy,Inflicts regular damage with no additional effect.
+0,moonblast,95,100,15,0,special,selected-pokemon,fairy,Has a 30% chance to lower the target's Special Attack by one stage.
+0,boomburst,140,100,10,0,special,all-other-pokemon,normal,Inflicts regular damage.
+0,fairy-lock,,,10,0,status,entire-field,fairy,Prevents all Pokémon from fleeing or switching out during the next turn.
+0,kings-shield,,,10,4,status,user,steel,Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact.  Switches Aegislash to Shield Forme.
+0,play-nice,,,20,0,status,selected-pokemon,normal,Lowers the target's Attack by one stage.
+0,confide,,,20,0,status,selected-pokemon,normal,Lowers the target's Special Attack by one stage.
+0,diamond-storm,100,95,5,0,physical,all-opponents,rock,Has a 50% chance to raise the user's Defense by two stages for each target hit.
+0,steam-eruption,110,95,5,0,special,selected-pokemon,water,Has a 30% chance to burn the target.
+0,hyperspace-hole,80,,5,0,special,selected-pokemon,psychic,Ignores and destroys protection effects.
+0,water-shuriken,15,100,20,1,special,selected-pokemon,water,Hits 2–5 times.
+0,mystical-fire,75,100,10,0,special,selected-pokemon,fire,Has a 100% chance to lower the target's Special Attack by one stage.
+0,spiky-shield,,,10,4,status,user,grass,Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.
+0,aromatic-mist,,,20,0,status,ally,fairy,Raises a selected ally's Special Defense by one stage.
+0,eerie-impulse,,100,15,0,status,selected-pokemon,electric,Lowers the target's Special Attack by two stages.
+0,venom-drench,,100,20,0,status,all-opponents,poison,"Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned."
+0,powder,,100,20,1,status,selected-pokemon,bug,"Explodes if the target uses a fire move this turn, damaging it for 1/4 its max HP and preventing the move."
+0,geomancy,,,10,0,status,user,fairy,"Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages."
+0,magnetic-flux,,,20,0,status,user-and-allies,electric,Raises the Defense and Special Defense of all friendly Pokémon with plus or minus by one stage.
+0,happy-hour,,,30,0,status,users-field,normal,Doubles prize money.
+0,electric-terrain,,,10,0,status,entire-field,electric,"For five turns, prevents all Pokémon on the ground from sleeping and strengthens their electric moves to 1.5× their power."
+0,dazzling-gleam,80,100,10,0,special,all-opponents,fairy,Inflicts regular damage with no additional effect.
+0,celebrate,,,40,0,status,user,normal,Does nothing.
+0,hold-hands,,,40,0,status,ally,normal,Does nothing.
+0,baby-doll-eyes,,100,30,1,status,selected-pokemon,fairy,Lowers the target's Attack by one stage.
+0,nuzzle,20,100,20,0,physical,selected-pokemon,electric,Has a 100% chance to paralyze the target.
+0,hold-back,40,100,40,0,physical,selected-pokemon,normal,Cannot lower the target's HP below 1.
+0,infestation,20,100,20,0,special,selected-pokemon,bug,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,power-up-punch,40,100,20,0,physical,selected-pokemon,fighting,Raises the user's Attack by one stage after inflicting damage.
+0,oblivion-wing,80,100,10,0,special,selected-pokemon,flying,Drains 75% of the damage inflicted to heal the user.
+0,thousand-arrows,90,100,10,0,physical,all-opponents,ground,"Grounds the target, and hits even Flying-type or levitating Pokémon."
+0,thousand-waves,90,100,10,0,physical,all-opponents,ground,Prevents the target from leaving battle.
+0,lands-wrath,90,100,10,0,physical,all-opponents,ground,Inflicts regular damage with no additional effect.
+0,light-of-ruin,140,90,5,0,special,selected-pokemon,fairy,User receives 1/2 the damage inflicted in recoil.
+0,origin-pulse,110,85,10,0,special,all-opponents,water,Inflicts regular damage with no additional effect.
+0,precipice-blades,120,85,10,0,physical,all-opponents,ground,Inflicts regular damage with no additional effect.
+0,dragon-ascent,120,100,5,0,physical,selected-pokemon,flying,Lowers the user's Defense and Special Defense by one stage after inflicting damage.
+0,hyperspace-fury,100,,5,0,physical,selected-pokemon,dark,Ignores and destroys protection effects.
+0,breakneck-blitz--physical,,,1,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,breakneck-blitz--special,,,1,0,special,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,all-out-pummeling--physical,,,1,0,physical,selected-pokemon,fighting,Inflicts regular damage with no additional effect.
+0,all-out-pummeling--special,,,1,0,special,selected-pokemon,fighting,Inflicts regular damage with no additional effect.
+0,supersonic-skystrike--physical,,,1,0,physical,selected-pokemon,flying,Inflicts regular damage with no additional effect.
+0,supersonic-skystrike--special,,,1,0,special,selected-pokemon,flying,Inflicts regular damage with no additional effect.
+0,acid-downpour--physical,,,1,0,physical,selected-pokemon,poison,Inflicts regular damage with no additional effect.
+0,acid-downpour--special,,,1,0,special,selected-pokemon,poison,Inflicts regular damage with no additional effect.
+0,tectonic-rage--physical,,,1,0,physical,selected-pokemon,ground,Inflicts regular damage with no additional effect.
+0,tectonic-rage--special,,,1,0,special,selected-pokemon,ground,Inflicts regular damage with no additional effect.
+0,continental-crush--physical,,,1,0,physical,selected-pokemon,rock,Inflicts regular damage with no additional effect.
+0,continental-crush--special,,,1,0,special,selected-pokemon,rock,Inflicts regular damage with no additional effect.
+0,savage-spin-out--physical,,,1,0,physical,selected-pokemon,bug,Inflicts regular damage with no additional effect.
+0,savage-spin-out--special,,,1,0,special,selected-pokemon,bug,Inflicts regular damage with no additional effect.
+0,never-ending-nightmare--physical,,,1,0,physical,selected-pokemon,ghost,Inflicts regular damage with no additional effect.
+0,never-ending-nightmare--special,,,1,0,special,selected-pokemon,ghost,Inflicts regular damage with no additional effect.
+0,corkscrew-crash--physical,,,1,0,physical,selected-pokemon,steel,Inflicts regular damage with no additional effect.
+0,corkscrew-crash--special,,,1,0,special,selected-pokemon,steel,Inflicts regular damage with no additional effect.
+0,inferno-overdrive--physical,,,1,0,physical,selected-pokemon,fire,Inflicts regular damage with no additional effect.
+0,inferno-overdrive--special,,,1,0,special,selected-pokemon,fire,Inflicts regular damage with no additional effect.
+0,hydro-vortex--physical,,,1,0,physical,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,hydro-vortex--special,,,1,0,special,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,bloom-doom--physical,,,1,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,bloom-doom--special,,,1,0,special,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,gigavolt-havoc--physical,,,1,0,physical,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,gigavolt-havoc--special,,,1,0,special,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,shattered-psyche--physical,,,1,0,physical,selected-pokemon,psychic,Inflicts regular damage with no additional effect.
+0,shattered-psyche--special,,,1,0,special,selected-pokemon,psychic,Inflicts regular damage with no additional effect.
+0,subzero-slammer--physical,,,1,0,physical,selected-pokemon,ice,Inflicts regular damage with no additional effect.
+0,subzero-slammer--special,,,1,0,special,selected-pokemon,ice,Inflicts regular damage with no additional effect.
+0,devastating-drake--physical,,,1,0,physical,selected-pokemon,dragon,Inflicts regular damage with no additional effect.
+0,devastating-drake--special,,,1,0,special,selected-pokemon,dragon,Inflicts regular damage with no additional effect.
+0,black-hole-eclipse--physical,,,1,0,physical,selected-pokemon,dark,Inflicts regular damage with no additional effect.
+0,black-hole-eclipse--special,,,1,0,special,selected-pokemon,dark,Inflicts regular damage with no additional effect.
+0,twinkle-tackle--physical,,,1,0,physical,selected-pokemon,fairy,Inflicts regular damage with no additional effect.
+0,twinkle-tackle--special,,,1,0,special,selected-pokemon,fairy,Inflicts regular damage with no additional effect.
+0,catastropika,210,,1,0,physical,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,shore-up,,,5,0,status,user,ground,"Heals the user for ½ its max HP, or ⅔ during a sandstorm."
+0,first-impression,90,100,10,2,physical,selected-pokemon,bug,Can only be used as the first move after the user enters battle.
+0,baneful-bunker,,,10,4,status,user,poison,Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it.
+0,spirit-shackle,80,100,10,0,physical,selected-pokemon,ghost,Traps the target.
+0,darkest-lariat,85,100,10,0,physical,selected-pokemon,dark,Ignores the target's stat modifiers.
+0,sparkling-aria,90,100,10,0,special,all-other-pokemon,water,Cures the target of burns.
+0,ice-hammer,100,90,10,0,physical,selected-pokemon,ice,Lowers user's Speed by one stage.
+0,floral-healing,,,10,0,status,selected-pokemon,fairy,"Heals the target for ½ its max HP, or ⅔ on Grassy Terrain."
+0,high-horsepower,95,95,10,0,physical,selected-pokemon,ground,Inflicts regular damage with no additional effect.
+0,strength-sap,,100,10,0,status,selected-pokemon,grass,Heals the user by the target's current Attack stat and lowers the target's Attack by one stage.
+0,solar-blade,125,100,10,0,physical,selected-pokemon,grass,Requires a turn to charge before attacking.
+0,leafage,40,100,40,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,spotlight,,,15,3,status,selected-pokemon,normal,Forces the target's opponents to aim at the target for the rest of the turn.
+0,toxic-thread,,100,20,0,status,selected-pokemon,poison,Poisons the target and lowers its Speed by one stage.
+0,laser-focus,,,30,0,status,user,normal,Guarantees a critical hit with the user's next move.
+0,gear-up,,,20,0,status,user-and-allies,steel,Raises the Attack and Special Attack of all friendly Pokémon with plus or minus by one stage.
+0,throat-chop,80,100,15,0,physical,selected-pokemon,dark,Prevents the target from using sound-based moves for two turns.
+0,pollen-puff,90,100,15,0,special,selected-pokemon,bug,"Damages opponents, but heals allies for 50% of their max HP."
+0,anchor-shot,80,100,20,0,physical,selected-pokemon,steel,Traps the target.
+0,psychic-terrain,,,10,0,status,entire-field,psychic,Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%.
+0,lunge,80,100,15,0,physical,selected-pokemon,bug,Lowers the target's Attack by one stage after inflicting damage.
+0,fire-lash,80,100,15,0,physical,selected-pokemon,fire,Lowers the target's Defense by one stage after inflicting damage.
+0,power-trip,20,100,10,0,physical,selected-pokemon,dark,"Power is higher the more the user's stats have been raised, to a maximum of 31×."
+0,burn-up,130,100,5,0,special,selected-pokemon,fire,Removes the user's fire type after inflicting damage.
+0,speed-swap,,,10,0,status,selected-pokemon,psychic,Exchanges the user's Speed with the target's.
+0,smart-strike,70,,10,0,physical,selected-pokemon,steel,Never misses.
+0,purify,,,20,0,status,selected-pokemon,poison,Cures the target of a major status ailment and heals the user for 50% of its max HP.
+0,revelation-dance,90,100,15,0,special,selected-pokemon,normal,Has the same type as the user.
+0,core-enforcer,100,100,10,0,special,all-opponents,dragon,Nullifies the target's ability if it moves earlier.
+0,trop-kick,70,100,15,0,physical,selected-pokemon,grass,Lowers the target's Attack by one stage after inflicting damage.
+0,instruct,,,15,0,status,selected-pokemon,psychic,Forces the target to repeat its last used move.
+0,beak-blast,100,100,15,-3,physical,selected-pokemon,flying,Inflicts a burn on any Pokémon that makes contact before the attack.
+0,clanging-scales,110,100,5,0,special,all-opponents,dragon,Lowers the user's Defense by one stage after inflicting damage.
+0,dragon-hammer,90,100,15,0,physical,selected-pokemon,dragon,Inflicts regular damage with no additional effect.
+0,brutal-swing,60,100,20,0,physical,all-other-pokemon,dark,Inflicts regular damage with no additional effect.
+0,aurora-veil,,,20,0,status,users-field,ice,"Reduces damage five turns, but must be used during hail."
+0,sinister-arrow-raid,180,,1,0,physical,selected-pokemon,ghost,Inflicts regular damage with no additional effect.
+0,malicious-moonsault,180,,1,0,physical,selected-pokemon,dark,Inflicts regular damage with no additional effect.
+0,oceanic-operetta,195,,1,0,special,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,guardian-of-alola,,,1,0,special,selected-pokemon,fairy,Damages the target for 75% of its remaining HP.
+0,soul-stealing-7-star-strike,195,,1,0,physical,selected-pokemon,ghost,Inflicts regular damage with no additional effect.
+0,stoked-sparksurfer,175,,1,0,special,selected-pokemon,electric,Has a 100% chance to paralyze the target.
+0,pulverizing-pancake,210,,1,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,extreme-evoboost,,,1,0,status,user,normal,Raises all of the user's stats by two stages.
+0,genesis-supernova,185,,1,0,special,selected-pokemon,psychic,Changes the terrain to Psychic Terrain after inflicting damage.
+0,shell-trap,150,100,5,-3,special,all-opponents,fire,Only inflicts damage if the user was hit by a physical move this turn.
+0,fleur-cannon,130,90,5,0,special,selected-pokemon,fairy,Lowers the user's Special Attack by two stages after inflicting damage.
+0,psychic-fangs,85,100,10,0,physical,selected-pokemon,psychic,Destroys Reflect and Light Screen.
+0,stomping-tantrum,75,100,10,0,physical,selected-pokemon,ground,Has double power if the user's last move failed.
+0,shadow-bone,85,100,10,0,physical,selected-pokemon,ghost,Has a 20% chance to lower the target's Defense by one stage.
+0,accelerock,40,100,20,1,physical,selected-pokemon,rock,Inflicts regular damage with no additional effect.
+0,liquidation,85,100,10,0,physical,selected-pokemon,water,Has a 20% chance to lower the target's Defense by one stage.
+0,prismatic-laser,160,100,10,0,special,selected-pokemon,psychic,User foregoes its next turn to recharge.
+0,spectral-thief,90,100,10,0,physical,selected-pokemon,ghost,"Steals the target's stat increases, then inflicts damage."
+0,sunsteel-strike,100,100,5,0,physical,selected-pokemon,steel,Cannot be disrupted by abilities.
+0,moongeist-beam,100,100,5,0,special,selected-pokemon,ghost,Cannot be disrupted by abilities.
+0,tearful-look,,,20,0,status,selected-pokemon,normal,Lowers the target's Attack and Special Attack by one stage.
+0,zing-zap,80,100,10,0,physical,selected-pokemon,electric,Has a 30% chance to make the target flinch.
+0,natures-madness,,90,10,0,special,selected-pokemon,fairy,Inflicts damage equal to half the target's HP.
+0,multi-attack,120,100,10,0,physical,selected-pokemon,normal,"If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+0,10-000-000-volt-thunderbolt,195,,1,0,special,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,mind-blown,150,100,5,0,special,all-other-pokemon,fire,"Inflicts damage, and the user takes damage equal to half of its max HP, rounded up."
+0,plasma-fists,100,100,15,0,physical,selected-pokemon,electric,"After inflicting damage, causes all Normal-type moves to become Electric-type for the remainder of the turn."
+0,photon-geyser,100,100,5,0,special,selected-pokemon,psychic,Inflicts regular damage with no additional effect.
+0,light-that-burns-the-sky,200,,1,0,special,selected-pokemon,psychic,"Inflicts damage using either Attack or Special Attack stat, whichever is higher."
+0,searing-sunraze-smash,200,,1,0,physical,selected-pokemon,steel,Cannot be disrupted by abilities.
+0,menacing-moonraze-maelstrom,200,,1,0,special,selected-pokemon,ghost,Cannot be disrupted by abilities.
+0,lets-snuggle-forever,190,,1,0,physical,selected-pokemon,fairy,Inflicts regular damage with no additional effect.
+0,splintered-stormshards,190,,1,0,physical,selected-pokemon,rock,Inflicts damage and removes any terrain present on the battlefield.
+0,clangorous-soulblaze,185,,1,0,special,all-opponents,dragon,"Inflicts damage to all opposing Pokémon and increases the user's Attack, Defense, Special Attack, Special Defense, and Speed by one stage each."
+0,zippy-zap,80,100,10,2,physical,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,splishy-splash,90,100,15,0,special,all-opponents,water,Inflicts regular damage with no additional effect.
+0,floaty-fall,90,95,15,0,physical,selected-pokemon,flying,Inflicts regular damage with no additional effect.
+0,pika-papow,,,20,0,special,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,bouncy-bubble,60,100,20,0,special,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,buzzy-buzz,60,100,20,0,special,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,sizzly-slide,60,100,20,0,physical,selected-pokemon,fire,Inflicts regular damage with no additional effect.
+0,glitzy-glow,80,95,15,0,special,selected-pokemon,psychic,Inflicts regular damage with no additional effect.
+0,baddy-bad,80,95,15,0,special,selected-pokemon,dark,Inflicts regular damage with no additional effect.
+0,sappy-seed,100,90,10,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,freezy-frost,100,90,10,0,special,selected-pokemon,ice,Inflicts regular damage with no additional effect.
+0,sparkly-swirl,120,85,5,0,special,selected-pokemon,fairy,Inflicts regular damage with no additional effect.
+0,veevee-volley,,,20,0,physical,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,double-iron-bash,60,100,5,0,physical,selected-pokemon,steel,Hits twice in one turn.
+0,max-guard,,,10,4,status,user,normal,Prevents any moves from hitting the user this turn.
+0,dynamax-cannon,100,100,5,0,special,selected-pokemon,dragon,Sets Light Screen on the user's side of the field after inflicting damage.
+0,snipe-shot,80,100,15,0,special,selected-pokemon,water,Sets Reflect on the user's side of the field after inflicting damage.
+0,jaw-lock,80,100,10,0,physical,selected-pokemon,dark,Seeds the target after inflicting damage.
+0,stuff-cheeks,,,10,0,status,user,normal,Cures the entire party of major status effects after inflicting damage.
+0,no-retreat,,,5,0,status,user,fighting,"Hits twice in one turn, with a 100% chance to make the target flinch."
+0,tar-shot,,100,15,0,status,selected-pokemon,rock,
+0,magic-powder,,100,20,0,status,selected-pokemon,psychic,
+0,dragon-darts,50,100,10,0,physical,selected-pokemon,dragon,
+0,teatime,,,10,0,status,all-pokemon,normal,
+0,octolock,,100,15,0,status,selected-pokemon,fighting,
+0,bolt-beak,85,100,10,0,physical,selected-pokemon,electric,
+0,fishious-rend,85,100,10,0,physical,selected-pokemon,water,
+0,court-change,,100,10,0,status,entire-field,normal,
+0,max-flare,100,,10,0,physical,selected-pokemon-me-first,fire,Inflicts regular damage with no additional effect.
+0,max-flutterby,10,,10,0,physical,selected-pokemon-me-first,bug,Inflicts regular damage with no additional effect.
+0,max-lightning,10,,10,0,physical,selected-pokemon-me-first,electric,Inflicts regular damage with no additional effect.
+0,max-strike,10,,10,0,physical,selected-pokemon-me-first,normal,Inflicts regular damage with no additional effect.
+0,max-knuckle,10,,10,0,physical,selected-pokemon-me-first,fighting,Inflicts regular damage with no additional effect.
+0,max-phantasm,10,,10,0,physical,selected-pokemon-me-first,ghost,Inflicts regular damage with no additional effect.
+0,max-hailstorm,10,,10,0,physical,selected-pokemon-me-first,ice,Inflicts regular damage with no additional effect.
+0,max-ooze,10,,10,0,physical,selected-pokemon-me-first,poison,Inflicts regular damage with no additional effect.
+0,max-geyser,10,,10,0,physical,selected-pokemon-me-first,water,Inflicts regular damage with no additional effect.
+0,max-airstream,10,,10,0,physical,selected-pokemon-me-first,flying,Inflicts regular damage with no additional effect.
+0,max-starfall,10,,10,0,physical,selected-pokemon-me-first,fairy,Inflicts regular damage with no additional effect.
+0,max-wyrmwind,10,,10,0,physical,selected-pokemon-me-first,dragon,Inflicts regular damage with no additional effect.
+0,max-mindstorm,10,,10,0,physical,selected-pokemon-me-first,psychic,Inflicts regular damage with no additional effect.
+0,max-rockfall,10,,10,0,physical,selected-pokemon-me-first,rock,Inflicts regular damage with no additional effect.
+0,max-quake,10,,10,0,physical,selected-pokemon-me-first,ground,Inflicts regular damage with no additional effect.
+0,max-darkness,10,,10,0,physical,selected-pokemon-me-first,dark,Inflicts regular damage with no additional effect.
+0,max-overgrowth,10,,10,0,physical,selected-pokemon-me-first,grass,Inflicts regular damage with no additional effect.
+0,max-steelspike,10,,10,0,physical,selected-pokemon-me-first,steel,Inflicts regular damage with no additional effect.
+0,clangorous-soul,,100,5,0,status,user,dragon,
+0,body-press,80,100,10,0,physical,selected-pokemon,fighting,
+0,decorate,,,15,0,status,selected-pokemon,fairy,
+0,drum-beating,80,100,10,0,physical,selected-pokemon,grass,Has a 100% chance to lower the target's Speed by one stage.
+0,snap-trap,35,100,15,0,physical,selected-pokemon,grass,Prevents the target from fleeing and inflicts damage for 2-5 turns.
+0,pyro-ball,120,90,5,0,physical,selected-pokemon,fire,Has a 10% chance to burn the target.
+0,behemoth-blade,100,100,5,0,physical,selected-pokemon,steel,
+0,behemoth-bash,100,100,5,0,physical,selected-pokemon,steel,
+0,aura-wheel,110,100,10,0,physical,selected-pokemon,electric,
+0,breaking-swipe,60,100,15,0,physical,all-opponents,dragon,Lowers the target's Attack by one stage after inflicting damage.
+0,branch-poke,40,100,40,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,overdrive,80,100,10,0,special,all-opponents,electric,
+0,apple-acid,80,100,10,0,special,selected-pokemon,grass,
+0,grav-apple,80,100,10,0,physical,selected-pokemon,grass,Lowers the target's Defense by one stage after inflicting damage.
+0,spirit-break,75,100,15,0,physical,selected-pokemon,fairy,Has a 100% chance to lower the target's Special Attack by one stage.
+0,strange-steam,90,95,10,0,special,selected-pokemon,fairy,Has a 20% chance to confuse the target.
+0,life-dew,,,10,0,status,user-and-allies,water,
+0,obstruct,,100,10,4,status,user,dark,
+0,false-surrender,80,,10,0,physical,selected-pokemon,dark,Never misses.
+0,meteor-assault,150,100,5,0,physical,selected-pokemon,fighting,User foregoes its next turn to recharge.
+0,eternabeam,160,90,5,0,special,selected-pokemon,dragon,User foregoes its next turn to recharge.
+0,steel-beam,140,95,5,0,special,selected-pokemon,steel,"Inflicts damage, and the user takes damage equal to half of its max HP, rounded up."
+0,expanding-force,80,100,10,0,special,selected-pokemon,psychic,Inflicts regular damage with no additional effect.
+0,steel-roller,130,100,5,0,physical,selected-pokemon,steel,Inflicts regular damage with no additional effect.
+0,scale-shot,25,90,20,0,physical,selected-pokemon,dragon,Boosts the user's Speed and lowers their Defense by one stage after inflicting damage two to five times in a row.
+0,meteor-beam,120,90,10,0,special,selected-pokemon,rock,Inflicts regular damage with no additional effect.
+0,shell-side-arm,90,100,10,0,special,selected-pokemon,poison,Inflicts regular damage with no additional effect.
+0,misty-explosion,100,100,5,0,special,all-other-pokemon,fairy,Inflicts regular damage with no additional effect.
+0,grassy-glide,55,100,20,0,physical,selected-pokemon,grass,Inflicts regular damage with no additional effect.
+0,rising-voltage,70,100,20,0,special,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,terrain-pulse,50,100,10,0,special,selected-pokemon,normal,Inflicts regular damage with no additional effect.
+0,skitter-smack,70,90,10,0,physical,selected-pokemon,bug,Inflicts regular damage with no additional effect.
+0,burning-jealousy,70,100,5,0,special,all-opponents,fire,Inflicts regular damage with no additional effect.
+0,lash-out,75,100,5,0,physical,selected-pokemon,dark,Inflicts regular damage with no additional effect.
+0,poltergeist,110,90,5,0,physical,selected-pokemon,ghost,Inflicts regular damage with no additional effect.
+0,corrosive-gas,,100,40,0,status,all-other-pokemon,poison,Inflicts regular damage with no additional effect.
+0,coaching,,,10,0,status,user-and-allies,fighting,Inflicts regular damage with no additional effect.
+0,flip-turn,60,100,20,0,physical,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,triple-axel,20,90,10,0,physical,selected-pokemon,ice,Inflicts regular damage with no additional effect.
+0,dual-wingbeat,40,90,10,0,physical,selected-pokemon,flying,Inflicts regular damage with no additional effect.
+0,scorching-sands,70,100,10,0,special,selected-pokemon,ground,Inflicts regular damage with no additional effect.
+0,jungle-healing,,,10,0,status,user-and-allies,grass,Inflicts regular damage with no additional effect.
+0,wicked-blow,75,100,5,0,physical,selected-pokemon,dark,Inflicts regular damage with no additional effect.
+0,surging-strikes,25,100,5,0,physical,selected-pokemon,water,Inflicts regular damage with no additional effect.
+0,thunder-cage,80,90,15,0,special,selected-pokemon,electric,Inflicts regular damage with no additional effect.
+0,dragon-energy,150,100,5,0,special,all-opponents,dragon,Inflicts regular damage with no additional effect.
+0,freezing-glare,90,100,10,0,special,selected-pokemon,psychic,Inflicts regular damage with no additional effect.
+0,fiery-wrath,90,100,10,0,special,all-opponents,dark,Inflicts regular damage with no additional effect.
+0,thunderous-kick,90,100,10,0,physical,selected-pokemon,fighting,Inflicts regular damage with no additional effect.
+0,glacial-lance,120,100,5,0,physical,all-opponents,ice,Inflicts regular damage with no additional effect.
+0,astral-barrage,120,100,5,0,special,all-opponents,ghost,Inflicts regular damage with no additional effect.
+0,eerie-spell,80,100,5,0,special,selected-pokemon,psychic,Inflicts regular damage with no additional effect.
+0,dire-claw,80,100,15,0,physical,selected-pokemon,poison,
+0,psyshield-bash,70,90,10,0,physical,selected-pokemon,psychic,
+0,power-shift,0,,10,0,status,user,normal,
+0,stone-axe,65,90,15,0,physical,selected-pokemon,rock,
+0,springtide-storm,100,80,5,0,special,all-opponents,fairy,
+0,mystical-power,70,90,10,0,special,selected-pokemon,psychic,
+0,raging-fury,120,100,10,0,physical,random-opponent,fire,
+0,wave-crash,120,100,10,0,physical,selected-pokemon,water,
+0,chloroblast,150,95,5,0,special,selected-pokemon,grass,
+0,mountain-gale,100,85,10,0,physical,selected-pokemon,ice,
+0,victory-dance,0,,10,0,status,user,fighting,
+0,headlong-rush,120,100,5,0,physical,selected-pokemon,ground,
+0,barb-barrage,60,100,10,0,physical,selected-pokemon,poison,
+0,esper-wing,80,100,10,0,special,selected-pokemon,psychic,
+0,bitter-malice,75,100,10,0,special,selected-pokemon,ghost,
+0,shelter,0,,10,0,status,user,steel,
+0,triple-arrows,90,100,10,0,physical,selected-pokemon,fighting,
+0,infernal-parade,60,100,15,0,special,selected-pokemon,ghost,
+0,ceaseless-edge,65,90,15,0,physical,selected-pokemon,dark,
+0,bleakwind-storm,100,80,10,0,special,all-opponents,flying,
+0,wildbolt-storm,100,80,10,0,special,all-opponents,electric,
+0,sandsear-storm,100,80,10,0,special,all-opponents,ground,
+0,lunar-blessing,0,,5,0,status,all-allies,psychic,
+0,take-heart,0,,10,0,status,all-allies,psychic,
+0,tera-blast,80,100,10,0,special,selected-pokemon,normal,
+0,silk-trap,0,,10,4,status,user,bug,
+0,axe-kick,120,90,10,0,physical,selected-pokemon,fighting,
+0,last-respects,50,100,10,0,physical,selected-pokemon,ghost,
+0,lumina-crash,80,100,10,0,special,selected-pokemon,psychic,
+0,order-up,80,100,10,0,physical,selected-pokemon,dragon,
+0,jet-punch,60,100,15,1,physical,selected-pokemon,water,
+0,spicy-extract,0,,15,0,status,selected-pokemon,grass,
+0,spin-out,100,100,5,0,physical,selected-pokemon,steel,
+0,population-bomb,20,90,10,0,physical,selected-pokemon,normal,
+0,ice-spinner,80,100,15,0,physical,selected-pokemon,ice,
+0,glaive-rush,120,100,5,0,physical,selected-pokemon,dragon,
+0,revival-blessing,0,,1,0,status,fainting-pokemon,normal,
+0,salt-cure,40,100,15,0,physical,selected-pokemon,rock,
+0,triple-dive,30,95,10,0,physical,selected-pokemon,water,
+0,mortal-spin,30,100,15,0,physical,all-opponents,poison,
+0,doodle,0,100,10,0,status,selected-pokemon,normal,
+0,fillet-away,0,,10,0,status,user,normal,
+0,kowtow-cleave,85,,10,0,physical,selected-pokemon,dark,
+0,flower-trick,70,,10,0,physical,selected-pokemon,grass,
+0,torch-song,80,100,10,0,special,selected-pokemon,fire,
+0,aqua-step,80,100,10,0,physical,selected-pokemon,water,
+0,raging-bull,90,100,10,0,physical,selected-pokemon,normal,
+0,make-it-rain,120,100,5,0,special,all-opponents,steel,
+0,psyblade,80,100,15,0,physical,selected-pokemon,psychic,
+0,hydro-steam,80,100,15,0,special,selected-pokemon,water,
+0,ruination,1,90,10,0,special,selected-pokemon,dark,
+0,collision-course,100,100,5,0,physical,selected-pokemon,fighting,
+0,electro-drift,100,100,5,0,special,selected-pokemon,electric,
+0,shed-tail,0,,10,0,status,user,normal,
+0,chilly-reception,0,,10,0,status,entire-field,ice,
+0,tidy-up,0,,10,0,status,user,normal,
+0,snowscape,0,,10,0,status,entire-field,ice,
+0,pounce,50,100,20,0,physical,selected-pokemon,bug,
+0,trailblaze,50,100,20,0,physical,selected-pokemon,grass,
+0,chilling-water,50,100,20,0,special,selected-pokemon,water,
+0,hyper-drill,100,100,5,0,physical,selected-pokemon,normal,
+0,twin-beam,40,100,10,0,special,selected-pokemon,psychic,
+0,rage-fist,50,100,10,0,physical,selected-pokemon,ghost,
+0,armor-cannon,120,100,5,0,special,selected-pokemon,fire,
+0,bitter-blade,90,100,10,0,physical,selected-pokemon,fire,
+0,double-shock,120,100,5,0,physical,selected-pokemon,electric,
+0,gigaton-hammer,160,100,5,0,physical,selected-pokemon,steel,
+0,comeuppance,1,100,10,0,physical,specific-move,dark,
+0,aqua-cutter,70,100,20,0,physical,selected-pokemon,water,
+0,blazing-torque,80,100,10,0,physical,selected-pokemon,fire,
+0,wicked-torque,80,100,10,0,physical,selected-pokemon,dark,
+0,noxious-torque,100,100,10,0,physical,selected-pokemon,poison,
+0,combat-torque,100,100,10,0,physical,selected-pokemon,fighting,
+0,magical-torque,100,100,10,0,physical,selected-pokemon,fairy,
+0,blood-moon,140,100,5,0,special,selected-pokemon,normal,
+0,matcha-gotcha,80,90,15,0,special,selected-pokemon,grass,
+0,syrup-bomb,60,85,10,0,special,selected-pokemon,grass,
+0,ivy-cudgel,100,100,10,0,physical,selected-pokemon,grass,
+0,electro-shot,130,100,10,0,special,selected-pokemon,electric,
+0,tera-starstorm,120,100,5,0,special,all-opponents,normal,
+0,fickle-beam,80,100,5,0,special,selected-pokemon,dragon,
+0,burning-bulwark,0,0,10,4,status,user,fire,
+0,thunderclap,70,100,5,1,special,selected-pokemon,electric,
+0,mighty-cleave,95,100,5,0,physical,selected-pokemon,rock,
+0,tachyon-cutter,50,0,10,0,special,selected-pokemon,steel,
+0,hard-press,0,100,10,0,physical,selected-pokemon,steel,
+0,dragon-cheer,0,0,15,0,status,all-allies,dragon,
+0,alluring-voice,80,100,10,0,special,selected-pokemon,fairy,
+0,temper-flare,75,100,10,0,physical,selected-pokemon,fire,
+0,supercell-slam,100,95,15,0,physical,selected-pokemon,electric,
+0,psychic-noise,75,100,10,0,special,selected-pokemon,psychic,
+0,upper-hand,65,100,15,3,physical,selected-pokemon,fighting,
+0,malignant-chain,100,100,5,0,special,selected-pokemon,poison,
